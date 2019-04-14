@@ -1,0 +1,108 @@
+
+.Register{
+	height: 590px;
+	border-radius: 25px;
+	background: white;
+	padding-top: 60px;
+	margin-bottom: 50px;
+	border: 2px solid #5cb85c;
+	display: inline-block;
+	margin-right: 10px;
+	font-family: 'Poppins', sans-serif;
+	box-shadow: 0 8px 6px -4px #5cb85c;
+}
+
+.Login{
+
+	height: 590px;
+	border-radius: 25px;
+	background: white;
+	padding-top: 145px;
+	margin-bottom: 50px;
+	border: 2px solid #5bc0de;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	box-shadow: 0 8px 6px -4px #5bc0de;		
+}
+label{
+	margin-bottom: 0px;
+	font-size: 0.8rem;
+}
+
+.fas{
+	color: black;
+}
+input{
+	cursor: text;
+}
+input::placeholder{
+	font-size: 0.7em;
+}
+h3{
+	color: #ed1c24;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 30px;
+}
+
+.form-rounded{
+	border-radius: 1rem;
+	background: #e6e6e6;
+}
+
+#Links{ 
+	margin-top: 20px;
+	font-size: 0.7em;
+}
+
+#Links a{
+	color: black;
+}
+
+#Links a:hover{
+	transition: color 0.5s;
+	color:#5cb85c;
+}
+.btn{
+	width: 120px;
+	border-radius: 1rem;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	transition: background-color 1s;
+}
+
+.btn:hover{
+	background-color: #5bc0de ;
+	border-color: #5bc0de;
+}
+
+#head{
+	text-align: center;
+}
+#Own{
+	color: #5bc0de;
+}
+#Room{
+	color: #5cb85c;
+}
+
+
+@media (max-width: 991.98px){
+	.Register{
+		padding-top: 45px;
+	}
+}
+
+@media(max-width: 767.98px){
+	h3{
+		font-size: 1.5rem;
+	}
+	.Register{
+		height: 600px;
+		padding-top: 15px;
+	}
+}
+
+@media(max-width: 575.98px){
+	.Register{
+		padding-top: 20px;
+	}
+}
